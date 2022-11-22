@@ -1,4 +1,4 @@
-##to the live site: https://infinity-scrolling-photos.netlify.app/
+## to the live site: https://infinity-scrolling-photos.netlify.app/
 
 fetch new photos depend on the value the user typed on search input. using search url from unsplash:
 "https://api.unsplash.com/search/photos/{THE VALUE THAT THE USER TYPED}"
