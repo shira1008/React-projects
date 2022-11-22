@@ -24,6 +24,7 @@ function App() {
     const urlQuery = `&query=${query}`;
 
     //לבדוק אם יש משהו בחיפוש, אם אין לעשות פצ' רגיל אם יש להשתמש בקישור של החיפוש.
+    //check if the user search , if so, use the search url, if not, use the other one
 
     if (query) {
       url = `${searchUrl}${clientID}${urlPage}${urlQuery}`;
